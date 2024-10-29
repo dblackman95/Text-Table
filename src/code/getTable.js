@@ -18,7 +18,6 @@ function getTable(table_def) {
   table_def = JSON.parse(table_def);
 
   var header = table_def.header;
-  console.log(table_def);
 
   //2. Read in a list of records where each record is of length header_list => records = [[ID, NAME, AGE, ADDRESS, SALARY], [ID, NAME, AGE, ADDRESS, SALARY], [ID, NAME, AGE, ADDRESS, SALARY]]
   var records = table_def.records;

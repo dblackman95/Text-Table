@@ -2,7 +2,13 @@
 
 .App {
   text-align: center;
+  font-size: 10px;
 }
+
+.modal-body {
+  font-size:10px;
+}
+
 .table-display {
   width: 100%;
   margin: 0 auto;
@@ -21,7 +27,6 @@
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
-  font-size: 16px;
   resize: none;
 }
 
@@ -58,6 +63,13 @@
   #table-json {
     width: 80%;
   }
+  .App {
+    text-align: center;
+    font-size: 14px;
+  }
+  .modal-body {
+    font-size:14px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -67,6 +79,13 @@
   #table-json {
     width: 70%;
   }
+  .App {
+    text-align: center;
+    font-size: 14px;
+  }
+  .modal-body {
+    font-size:14px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -75,5 +94,12 @@
   }
   #table-json {
     width: 60%;
+  }
+  .App {
+    text-align: center;
+    font-size: 16px;
+  }
+  .modal-body {
+    font-size:16px;
   }
 }
